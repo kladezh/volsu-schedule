@@ -1,0 +1,6 @@
+{
+    "name": "schedule",
+    "root_url": "http://localhost/schedule/",
+
+    "database": "firebase"
+}

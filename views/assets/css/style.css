@@ -1,0 +1,165 @@
+@import url('../fonts/Gilroy/style.css');
+
+body {
+    background-color: #fff;
+
+    font-family: Gilroy, sans-serif;
+    color: #000;
+
+    overflow-y: scroll;
+}
+
+.container {
+    max-width: 1024px;
+}
+
+svg.icn {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 0;
+
+    fill: #000;
+}
+
+svg.icn.icn-class  {
+    fill: #dc3642;
+}
+
+/* *** header *** */
+
+.header {
+    background-color: #131313;
+    color: #fff;
+}
+
+.header-title {
+    font-size: 68px;
+}
+
+
+/* *** schedule-info *** */
+
+.schedule-info-text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #000;
+    transition: color .1s linear;
+}
+.schedule-info-text:hover {
+    color: #dc3642;
+}
+
+
+/* *** schedule-days *** */
+.schedule-days .nav-pills .nav-item {
+    margin-bottom: 1rem;
+}
+.schedule-days .nav-pills .nav-item:last-child {
+    margin-bottom: 0;
+}
+
+.schedule-days .nav-pills .nav-link {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+    padding: 1.5rem 2rem;
+
+    color: #000;
+    background-color: #edeef0;
+    border-radius: 1rem;
+    box-shadow: 1px 3px 6px 0px rgba(189, 183, 183, 0.6);
+
+    transition: background-color .1s linear;
+}
+.schedule-days .nav-pills .nav-link:hover{
+    background-color: #e0e0e0;
+}
+
+.schedule-days .nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #131313;
+}
+.schedule-days .nav-pills .nav-link.active svg.icn-arrow {
+    fill: #fff;
+}
+
+.schedule-days .nav-link .day-wrap {
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.schedule-days .nav-link .date-wrap {
+    font-size: 1rem;
+}
+
+
+/* *** schedule-board *** */
+.schedule-board {
+    background-color: #edeef0;
+    border-radius: 1rem;
+    box-shadow: 1px 3px 6px 0px rgba(189, 183, 183, 0.6);
+}
+
+/* *** schedule-classes *** */
+
+.schedule-class{
+    padding: 1rem 0;
+    
+    border-bottom: 1px solid #bebebe;
+}
+.schedule-classes .schedule-class:first-child {
+    padding-top: 0;
+}
+.schedule-classes .schedule-class:last-child {
+    padding-bottom: 0;
+    border: none;
+}
+
+.schedule-class-header-num {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+
+    padding: 12px 24px;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    color: #fff;
+    background-color: #131313;
+    border-radius: 1rem;
+}
+
+.schedule-class-header-name {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.schedule-class-body {
+    font-size: 20px;
+}
+
+.schedule-class-body [class*=schedule-class-body] {
+    margin-top: 8px;
+}
+.schedule-class-body [class|=schedule-class-body]:first-child {
+    margin-top: 0;
+}
+
+.schedule-class-body [class*=schedule-class-body] span{
+    margin-left: 0.5rem;
+}
+
+.schedule-classes-noclass-msg {
+    font-size: 20px;
+}
+
+/* *** footer *** */

@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "classmap": [
+            ".core/app", ".core/database", ".core/config", "models", "controllers"
+        ],
+        "exclude-from-classmap": [
+            ".core/config/files"
+        ]
+    },
+    "require": {
+        "kreait/firebase-php": "^5.25"
+    }
+}
