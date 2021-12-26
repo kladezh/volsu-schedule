@@ -1,4 +1,4 @@
-config/files/database.json
-vendor
+/config/files/database.json
+/vendor
 composer.json
 composer.lock
