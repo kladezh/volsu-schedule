@@ -1,4 +1,7 @@
-/config/files/database.json
-/vendor
-composer.json
-composer.lock
+# конфиги бд
+/.core/config/files/database.json
+
+# зависимости
+/vendor/
+/composer.json
+/composer.lock
